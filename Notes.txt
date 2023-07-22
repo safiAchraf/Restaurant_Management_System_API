@@ -1,0 +1,19 @@
+***NOTE***: i used function based views in  the whole app 
+		so for filtering add to the link
+		'?category=italien'
+		ex: http://127.0.0.1:8000/api/menu-items/?category=Meat
+
+SUPER USER = {
+	username = admin	
+	email = admin@littlelemon.com
+	password = admin
+}
+
+
+USERS = {     [username , password , role ]
+	
+	USER1 = ['user1' ,'little@user1' , 'Manager']
+	USER2 = ['user2' ,'little@user2' , 'Delivery crew']
+	USER3 = ['user3' ,'little@user3' , 'normal user']
+	
+}
